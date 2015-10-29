@@ -9,6 +9,7 @@ class Actor:
     def get_id(self):
         return self._id
 
+
 class Movie:
 
     def __init__(self, id, title, release_date, rating):
@@ -25,6 +26,7 @@ class Movie:
 
     def get_rating(self):
         return self._rating
+
 
 class MoviePart:
 
